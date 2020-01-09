@@ -1,11 +1,42 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-14 border-green-700">
+    <header class="border-t-14 border-orange-500">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8 m-0">
         <div>
           <saber-link to="/" class="flex items-center" >
-            <svg width="32" height="32" viewBox="0 0 402 402"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="200" cy="200" r="200.5" fill="#00838F" stroke="#00838F"/><path fill="#FBB526" d="M152.842 232.24L203.5 228l9.524 22-32.693 32.435-27.489 38.643L156.47 368c-26.887-6.566-44.792-13.037-53.717-19.413C93.83 342.21 84.245 333.04 74 321.077l48-57.164h21l9.842-31.672z"/><path fill="#FFF" d="M143 131h120v14H143zM171 145h12v83h-12zM224 145h12v105h-12zM196 185h12v40h-12zM187 91h33v40h-33z"/><circle cx="203" cy="78" r="18" stroke="#FFF" stroke-width="14"/><circle cx="200" cy="200" r="179" stroke="#FFF" stroke-width="14"/><path stroke="#FFF" stroke-width="14" d="M70 325.805L119.368 260h28.5"/><path stroke="#FFF" stroke-width="14" d="M122 314.069l22.748-19.731 5.5-57.903 55-10.435L220 250"/><path stroke="#FFF" stroke-width="14" d="M177 286.058l19-11.648 9.188-24.41 45.191 4.615 17.269 22.822"/><path stroke="#FFF" stroke-width="14" d="M242.721 274.41h36.897L330.993 324M200 331.156L221.037 311 240 320.931l40.63 5.51"/></g></svg>
-            <span class="text-xl ml-2" :class="{ 'text-gray-800' : theme === 'theme-light', 'text-white' : theme === 'theme-dark'}">Saber</span>
+            <!-- <svg width="32" height="32" viewBox="0 0 402 402"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="200" cy="200" r="200.5" fill="#00838F" stroke="#00838F"/><path fill="#FBB526" d="M152.842 232.24L203.5 228l9.524 22-32.693 32.435-27.489 38.643L156.47 368c-26.887-6.566-44.792-13.037-53.717-19.413C93.83 342.21 84.245 333.04 74 321.077l48-57.164h21l9.842-31.672z"/><path fill="#FFF" d="M143 131h120v14H143zM171 145h12v83h-12zM224 145h12v105h-12zM196 185h12v40h-12zM187 91h33v40h-33z"/><circle cx="203" cy="78" r="18" stroke="#FFF" stroke-width="14"/><circle cx="200" cy="200" r="179" stroke="#FFF" stroke-width="14"/><path stroke="#FFF" stroke-width="14" d="M70 325.805L119.368 260h28.5"/><path stroke="#FFF" stroke-width="14" d="M122 314.069l22.748-19.731 5.5-57.903 55-10.435L220 250"/><path stroke="#FFF" stroke-width="14" d="M177 286.058l19-11.648 9.188-24.41 45.191 4.615 17.269 22.822"/><path stroke="#FFF" stroke-width="14" d="M242.721 274.41h36.897L330.993 324M200 331.156L221.037 311 240 320.931l40.63 5.51"/></g></svg> -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="20px" viewBox="0 0 385 34" enable-background="new 0 0 385 34" xml:space="preserve">  <image id="image0" width="385" height="34" x="0" y="0"
+                xlink:href="data:image/png;base64,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
+            AAAAAElFTkSuQmCC" />
+            </svg>
+            <!-- <span class="text-xl ml-2" :class="{ 'text-gray-800' : theme === 'theme-light', 'text-white' : theme === 'theme-dark'}">Ralph Toledo's Portfolio</span> -->
           </saber-link>
         </div>
         <div class="block lg:hidden">
@@ -21,19 +52,19 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-gray-600">Projects</a>
-            <saber-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</saber-link>
+            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">ABOUT</a>
+            <saber-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">Projects</saber-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">About</a>
-            <saber-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</saber-link>
+            <a v-if="$route.path === '/'" href="/#work" v-scroll-to="'#work'" class="text-copy-primary hover:text-gray-600">MY WORK</a>
+            <saber-link v-else to="/#work" class="text-copy-primary hover:text-gray-600">About</saber-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
-            <saber-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</saber-link>
+            <!-- <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">RESUME</a> -->
+            <saber-link to="/resume" target="_blank" class="text-copy-primary hover:text-gray-600">RESUME</saber-link>
           </li>
           <li>
-            <saber-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</saber-link>
+            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -42,7 +73,7 @@
     <div class="flex-grow">
       <slot />
     </div>
-    <footer class="bg-green-700 text-white">
+    <footer class="bg-orange-500 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright 2019. All rights reserved.</div>

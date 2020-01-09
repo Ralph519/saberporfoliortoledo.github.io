@@ -1,5 +1,5 @@
 siteConfig:
-  title: Saber Portfolio Starter
+  title: Welcome to my portfolio
 
 permalinks:
   post: /posts/:slug
@@ -8,3 +8,6 @@ permalinks:
 plugins:
   - resolve: saber-plugin-query-posts
   - resolve: saber-plugin-prismjs
+  - resolve: saber-plugin-google-analytics
+    options:
+      trackId: UA-134948154-1
