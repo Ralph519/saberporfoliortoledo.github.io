@@ -48,7 +48,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>St. Joseph Drug Website</div>
-            <div class="text-lg text-gray-600">St. Joseph Drug website built with Laravel framework and Vuejs. It comes with Content Management System</div>
+            <div class="text-lg text-gray-600">St. Joseph Drug website built with Laravel framework and Vuejs. It comes with Content Management System - <a href="http://stjosephdrug.com//" target="_blank">View App</a></div>
           </li>
           <li class="checkmark mb-6">
             <div>St. Joseph Drug E-commerce</div>
@@ -65,6 +65,10 @@
           <li class="checkmark mb-6">
             <div>React-Redux Firebase Socialmedia</div>
             <div class="text-lg text-gray-600">A mini facebook clone created with React-redux and firebase database - <a href="https://reactsocialmedia.ralphtoledo.com/" target="_blank">View App</a></div>
+          </li>
+           <li class="checkmark mb-6">
+            <div>TalkToMe - Tutorial Services website</div>
+            <div class="text-lg text-gray-600">A online english teaching platform - <a href="https://talktome.com.ph/" target="_blank">View App</a></div>
           </li>
 
         </ul>
