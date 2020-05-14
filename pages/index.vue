@@ -48,7 +48,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>St. Joseph Drug Website</div>
-            <div class="text-lg text-gray-600">St. Joseph Drug website built with Laravel framework and Vuejs. It comes with Content Management System - <a href="http://stjosephdrug.com//" target="_blank">View App</a></div>
+            <div class="text-lg text-gray-600">St. Joseph Drug website built with Laravel framework and Vuejs. It comes with Content Management System - <a href="http://stjosephdrug.com/" target="_blank">View App</a></div>
           </li>
           <li class="checkmark mb-6">
             <div>St. Joseph Drug E-commerce</div>
