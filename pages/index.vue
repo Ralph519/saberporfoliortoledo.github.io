@@ -46,14 +46,14 @@
         </div>
 
         <ul class="text-lg sm:text-xl">
-          <li class="checkmark mb-6">
+          <!-- <li class="checkmark mb-6">
             <div>St. Joseph Drug Website</div>
             <div class="text-lg text-gray-600">St. Joseph Drug website built with Laravel framework and Vuejs. It comes with Content Management System - <a href="http://stjosephdrug.com/" target="_blank">View App</a></div>
           </li>
           <li class="checkmark mb-6">
             <div>St. Joseph Drug E-commerce</div>
             <div class="text-lg text-gray-600">St. Joseph Drug E-commerce built with Laravel framework and Vuejs. A fully functioning E-commerce website built from scratch. Equipped with Paypal for payment option.</div>
-          </li>
+          </li> -->
           <li class="checkmark mb-6">
             <div>Archirodon Timekeeping and Payroll</div>
             <div class="text-lg text-gray-600">An upgraded version of Archirodon's Timekeeping and Payroll based on the Visual Foxpro version. Built with Laravel framework and Vuejs, backend with Micrsoft SQL Server, Azure.</div>
